@@ -11,7 +11,7 @@
     <script src="js/less.js"></script>
   </head>
 
-  <body style="">
+  <body>
     
     <!-- Sub Navigation: sticky, fixed position -->
     <div id="header_subnav">
@@ -27,25 +27,45 @@
       </div>
     </div>
     
+    
+    
+    
+    
+    
     <!-- Brand and Main Navigation: top level categories -->
     <div id="brand">
       <div class="container centered">
-        <div class="navbar">
           <div class="row-fluid">
-            <div class="span4">
-              <a href="#"><img class="brand" src="images/bizo_logo.png"></a>
+            <div class="span3">
+              <a href="#"><img class="brand" src="images/bizo_logo_notag.png"></a>
             </div>
-            <ul class="nav pull-right">
-              <li><a href="#">For Marketers</a></li>
-              <li><a href="#">For Publishers</a></li>
-              <li><a href="#">Technology</a></li>
-              <li><a href="#">Resources</a></li>
-              <li><a href="#">About Us</a></li>
-            </ul>
+            <div class="span9">
+              <div class="navbar">
+                <ul class="nav pull-right">
+                  <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Marketers <b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                      <li>menu one</li>
+                      <li>menu two</li>
+                      <li>menu three</li>
+                    </ul>  
+                  </li>
+                  <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">For Publishers <b class="caret"></b></a></li>
+                  <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology <b class="caret"></b></a></li>
+                  <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a></li>
+                  <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>  
-    </div>  
+ 
+    
+    
+    
+    
+    
 
     <!-- Promo Slider: rotating promos -->
     <div id="promo_container">
@@ -71,7 +91,7 @@
 
       <div class="container centered">
         
-        <h2 class="centered_content">Bizo Thought Leadership</h2>
+        <h1 class="centered_content">Bizo Thought Leadership</h1>
         
         <div class="row-fluid">
           <div class="span4"><img src="http://www.bizo.com/images/cover_playbook.jpg" class="pull-left" /> <p>The Playbook to Great B2B Ad Creative: 5 Elements of a Hit Campaign</p></div>
