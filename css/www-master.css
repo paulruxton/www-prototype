@@ -1,0 +1,66 @@
+  h1, h2, h3, h4 { font-family: "museo-slab-1","museo-slab-2",serif; }    
+  
+  .centered_content { text-align: center !important; } 
+  
+  /*-- Sub Navigation: sticky, fixed position */
+  #header_subnav { 
+    background: #000;
+    color: rgba(190, 190, 190, 1.0);
+    font-size: 12px;
+    width: 100%:
+    height: 35px;
+    display: block;
+    padding: 10px 0 0 0;
+    }
+    #header_subnav a.btn  { color: rgba(50, 50, 50, 1.0); }
+    #header_subnav a.btn:hover  { color: rgba(0, 0, 0, 1.0); }
+    #header_subnav a  { color: rgba(190, 190, 190, 1.0); }
+    #header_subnav a:hover  { color: rgba(255, 255, 255, 1.0); text-decoration: none; }
+    
+   /*-- Brand and Main Navigation: top level categories */  
+  #brand {
+    background: rgba(0, 165, 217, 1.0);
+    width: 100%;
+    height: 80px;
+    display: block;
+    padding: 20px 0 0 0;
+    }
+    #brand .container .navbar .row-fluid .span4 h1.header_brand a { 
+  		width: 274px; 
+  		height: 40px;
+  		background: transparent url("../images/bizo_logo.png") 0 0 no-repeat;
+  		display: block;
+  		text-indent: -9999px;
+      }
+      .row-fluid ul.nav li a { 
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 16px;
+        }
+      .row-fluid ul.nav li a:hover { 
+        color: rgba(255, 255, 255, 1.0);
+        background: rgba(255, 255, 255, 0.25);
+        -webkit-border-radius: .5em; 
+    	     -moz-border-radius: .5em;
+    	          border-radius: .5em;
+        }
+    
+    /*-- Brand and Main Navigation: top level categories */    
+    #promo_container {
+      background: url('../images/promo_bg.png') 0 0 repeat-x;
+      width: 100%; 
+      height: 410px;
+      }
+      #promo1 {
+        background: url('bg-glow.png') center center no-repeat;
+        width: 100%; 
+        height: 410px;
+        }
+        
+    /*-- Thought Leadership Module */    
+    #thought_leadership {
+      background: rgba(207, 237, 248, 0.5);
+      width: 100%;
+      min-height: 400px;
+      }
+
+        
