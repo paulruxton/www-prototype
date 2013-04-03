@@ -13,15 +13,14 @@
 
   <body>
     
-    <!-- Sub Navigation: sticky, fixed position -->
+  <!-- Sub Navigation: sticky, fixed position -->
     <div id="header_subnav">
       <div class="container centered">
         <ul class="unstyled inline pull-right">
-          <li><a href="#" class="btn btn-mini">Sign Up</a></li>
-          <li><a href="#" class="btn btn-mini">Sign In</a></li>
-          <li><a href="#">Blog</a> |</li>
-          <li><a href="#">Careers</a> |</li>
-          <li><a href="#">Contact Us</a> |</li>
+          <li><a href="#" class="btn btn-mini btn-info">Sign In</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact Us</a></li>
           <li><strong>Tel: 866-497-5505</strong></li>
         </ul>
       </div>
@@ -32,23 +31,54 @@
     
     
     
-    <!-- Brand and Main Navigation: top level categories -->
+  <!-- Brand and Main Navigation: top level categories -->
     <div id="brand">
       <div class="container centered">
           <div class="row-fluid">
             <div class="span3">
               <a href="#"><img class="brand" src="images/bizo_logo_notag.png"></a>
             </div>
-            <div class="span9">
-              <div class="navbar">
-                <ul class="nav pull-right">
+            <div class="span9" style="background: pink;">
+              <div class="navbar pull-right" style="background: orange;">
+                <ul class="nav pull-right" style="background: green;">
                   <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Marketers <b class="caret"></b></a>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                      <li>menu one</li>
-                      <li>menu two</li>
-                      <li>menu three</li>
+                    
+                    
+                    
+                    <!-- Marketers drop-down menu -->
+                    <ul class="dropdown-menu pull-left" role="menu" aria-labelledby="dLabel" style="">
+                      <li>
+                        
+                        <div class="span6">
+                          <h3>Reach &amp; Engage Business Audiences</h3>
+                          <p>Bizo gives marketers instant access to the people who sign the checks at work, and have the most to spend on life: business professionals.</p>
+                        </div>
+                        
+                        <div class="span3" style="">
+                          <ul>
+                            <li>Overview</li>
+                            <li>Platform</li>
+                            <li>Solutions</li>
+                          </ul>
+                        </div>
+                        
+                        <div class="span3" style="">
+                          <ul>
+                            <li>Targetable Segments</li>
+                            <li>Bizo Audience</li>
+                            <li>Agencies</li>
+                          </ul>
+                        </div>
+                        
+                      </li>  
                     </ul>  
+                    
+                    
+                    
+                    
+                    
+                    
                   </li>
                   <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">For Publishers <b class="caret"></b></a></li>
                   <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology <b class="caret"></b></a></li>
@@ -66,8 +96,13 @@
     
     
     
+    
+    
+    
+    
+    
 
-    <!-- Promo Slider: rotating promos -->
+  <!-- Promo Slider: rotating promos -->
     <div id="promo_container">
       <div class="container centered">
         
@@ -86,7 +121,12 @@
     </div>  
     
     
-    <!-- Promo Slider: rotating promos -->
+    
+    
+    
+    
+    
+  <!-- Thought Leadership Module -->
     <div id="thought_leadership">
 
       <div class="container centered">
@@ -101,10 +141,10 @@
         
         <div class="well">
           <div class="row-fluid">
-            <div class="span8">
+            <div class="span9">
               <h3>100's of amazing white papers, case studies, and resources available in our Resource Center!</h3>
             </div>
-            <div class="span4">
+            <div class="span3 centered_content">
               <a href="#" class="btn btn-primary btn-large">Start Learning!</a>
             </div>   
           </div>  
@@ -133,29 +173,14 @@
        
        
        
-        <!--<div class="row">
-          <div class="span4">
-            <h3>Some clever header</h3>
-            <p>Put something cool here</p>
-          </div>
 
-          <div class="span4">
-            <h3>Some clever header</h3>
-            <p>Put something cool here</p>
-          </div>
 
-          <div class="span4">
-            <h3>Some clever header</h3>
-            <p>Put something cool here</p>
-          </div>
-        </div>
-      </div>-->
-
-    <!-- JavaScript for widgets & charts  -->
+  <!-- JavaScript for widgets & charts  -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="https://raw.github.com/DmitryBaranovskiy/raphael/master/raphael-min.js"></script>
     <script src="https://raw.github.com/jcarver989/raphy-charts/master/compiled/charts.min.js"></script>
     <script src="http://media.bizo.com/bizstrap/js/bootstrap.min.js"></script>
+    
   </body>
 </html>
 
